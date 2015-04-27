@@ -10,7 +10,7 @@ try:
     filename = vim.current.buffer.name
 
     with open(filename, 'w') as f:
-        f.write('# -*- coding: utf-8 -*- \n')
+        f.write('# -*- coding: utf-8 -*-\n')
         f.write('\n')
         f.write('\n')
         f.write('from doublex import *\n')
@@ -19,9 +19,9 @@ try:
         f.write('\n')
         f.write('\n')
         f.write("with describe('describe'):\n")
-        f.write("\t with context('context'):\n")
-        f.write("\t \t with it('foo'):\n")
-        f.write("\t \t \t pass\n")
+        f.write("    with context('context'):\n")
+        f.write("        with it('foo'):\n")
+        f.write("            pass\n")
 
     print "HTML output written to "+filename
 
