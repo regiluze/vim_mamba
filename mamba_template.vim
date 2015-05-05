@@ -12,7 +12,6 @@ try:
     with open(filename, 'w') as f:
         f.write('# -*- coding: utf-8 -*-\n')
         f.write('\n')
-        f.write('\n')
         f.write('from doublex import *\n')
         f.write('from expects import *\n')
         f.write('from doublex_expects import *\n')
